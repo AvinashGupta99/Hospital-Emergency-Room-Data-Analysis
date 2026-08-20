@@ -1,127 +1,249 @@
-
 # 🏥 Hospital Emergency Room Data Analysis
 
-An **Excel / Data Analytics project** focused on analyzing Hospital Emergency Room patient data and extracting useful operational insights related to admissions, waiting time, patient satisfaction, demographics, referrals, and visit trends.
+## 📊 Hospital Emergency Room Dashboard
 
-## 📌 Project Overview
+An interactive **Hospital Emergency Room Data Analysis Dashboard** created in **Microsoft Excel** to analyze patient volume, waiting time, satisfaction, admission status, gender, age groups, department referrals, and patient attendance performance.
 
-This project analyzes **9,216 emergency room patient records** and explores patient demographics, admission outcomes, waiting time, satisfaction scores, department referrals, and monthly visit patterns.
+The dashboard provides a monthly reporting view with **Year** and **Month** selection, helping users quickly understand emergency-room operations and identify areas that may require improvement.
 
-The analysis is designed to help understand emergency-room workload and identify areas that can support better operational decision-making.
+---
 
-## 🛠️ Tools Used
+## 🖼️ Dashboard Preview
 
-- **Microsoft Excel**
-- Data Cleaning & Transformation
-- Excel Charts & Dashboarding
-- Data Analysis
-- Pivot Tables / Pivot Charts
-- Basic KPI Analysis
+<p align="center">
+  <img src="images/hospital-logo.png" width="180" alt="Hospital Logo">
+</p>
 
-## 📊 Dataset
+<p align="center">
+  <img src="images/hospital-emergency-room-dashboard.jpg" width="100%" alt="Hospital Emergency Room Dashboard">
+</p>
 
-The dataset contains **9,216 patient records** with **12 columns**.
-
-### Main fields
-
-| Field | Description |
-|---|---|
-| Patient Id | Unique patient identifier |
-| Patient Admission Date | Date and time of ER visit |
-| Patient Gender | Patient gender |
-| Patient Age | Patient age |
-| Patient Race | Patient race category |
-| Department Referral | Referred department |
-| Patient Admission Flag | Whether the patient was admitted |
-| Patient Satisfaction Score | Patient satisfaction rating |
-| Patient Waittime | Patient waiting time |
-
-> **Privacy note:** The repository should contain only the project dataset and aggregated visuals required for demonstration. Avoid publishing personally identifiable patient information in public repositories.
-
-## 📈 Key KPIs
-
-| KPI | Value |
-|---|---:|
-| Total ER Visits | **9,216** |
-| Admitted Patients | **4,612** |
-| Admission Rate | **50.0%** |
-| Average Wait Time | **35.3 min** |
-| Average Satisfaction Score | **5.0 / 10** |
-| Average Patient Age | **39.9 years** |
-
-## 🔍 Analysis Performed
-
-### 1. Admission Analysis
-Analyzed the number and percentage of patients who were admitted versus not admitted.
-
-![Admission Status](images/01-admission-status.png)
-
-### 2. Department Referral Analysis
-Examined which departments received the highest number of emergency-room referrals.
-
-![Department Referral](images/02-department-referral.png)
-
-### 3. Monthly Visit Trend
-Analyzed emergency-room visits over time to identify changes in patient volume.
-
-![Monthly Visits](images/03-monthly-visits.png)
-
-### 4. Gender Distribution
-Compared patient visits across gender categories.
-
-![Gender Distribution](images/04-gender-distribution.png)
-
-## 💡 Sample Insights
-
-- The dataset contains **9,216 emergency-room visits**.
-- Approximately **50.0%** of patients were admitted.
-- The average patient waiting time is approximately **35.3 minutes**.
-- The average patient satisfaction score is approximately **5.0/10**.
-- **General Practice** and **Orthopedics** are among the most frequently specified department referrals.
-- Monthly visit analysis can help identify periods of relatively high or low emergency-room workload.
+---
 
 ## 🎯 Project Objectives
 
-- Analyze emergency-room patient data.
-- Understand admission patterns.
-- Evaluate patient waiting time.
-- Analyze patient satisfaction.
-- Explore demographic distributions.
-- Identify common department referrals.
-- Track emergency-room visit trends over time.
-- Present insights using clear Excel-based visualizations.
+- Analyze emergency-room patient volume.
+- Monitor average patient waiting time.
+- Track patient satisfaction.
+- Compare admitted and non-admitted patients.
+- Analyze patients attended within time versus delayed patients.
+- Understand patient distribution by gender.
+- Analyze patients across different age groups.
+- Identify department referral patterns.
+- Create an interactive monthly hospital reporting dashboard.
+- Present healthcare data in a clear and decision-friendly format.
 
-## 📁 Repository Structure
+---
+
+## 📌 Key Dashboard KPIs
+
+The dashboard contains the following important metrics:
+
+| KPI | Description |
+|---|---|
+| **No. of Patients** | Total number of patients for the selected month |
+| **Avg. Wait Time (Min)** | Average patient waiting time in minutes |
+| **Patient Satisfaction Score** | Average satisfaction score |
+| **Admission Status** | Admitted vs. Not Admitted patients |
+| **Attendance Performance** | Delay vs. Within Time |
+| **Gender Distribution** | Female vs. Male patient count |
+| **Age Group** | Patient count by age category |
+| **Department Referral** | Patients referred to different departments |
+
+---
+
+## 🔍 Dashboard Analysis
+
+### 1. Patient Volume
+
+The dashboard displays the total number of emergency-room patients for the selected month.
+
+**Displayed report:**
+- **464 patients**
+
+The monthly buttons allow users to analyze patient volume for different months.
+
+### 2. Average Wait Time
+
+The dashboard tracks the average time patients wait before receiving attention.
+
+**Displayed report:**
+- **35.19 minutes**
+
+This KPI can help identify delays and support improvements in patient flow.
+
+### 3. Patient Satisfaction
+
+The dashboard monitors the overall patient satisfaction score.
+
+**Displayed report:**
+- **5.09**
+
+Tracking this metric helps understand the patient experience alongside operational performance.
+
+### 4. Admission Status
+
+The dashboard compares admitted and non-admitted patients.
+
+| Admission Status | Patients | % of Total |
+|---|---:|---:|
+| Not Admitted | 233 | 50% |
+| Admitted | 231 | 50% |
+
+The displayed report shows an almost equal split between admitted and non-admitted patients.
+
+### 5. Patients Attended Within Time
+
+The dashboard evaluates whether patients were attended within the expected time.
+
+| Attendance Status | Percentage |
+|---|---:|
+| Delay | 61% |
+| Within Time | 39% |
+
+The displayed report indicates that delayed cases are higher than cases attended within time, highlighting an area where operational efficiency could potentially be improved.
+
+### 6. Gender Distribution
+
+The dashboard shows the number of patients by gender.
+
+| Gender | Patients |
+|---|---:|
+| Female | 227 |
+| Male | 237 |
+
+The displayed report shows a slightly higher number of male patients.
+
+### 7. Age Group Analysis
+
+The dashboard breaks patients into different age groups.
+
+| Age Group | Patients |
+|---|---:|
+| 0–4 | 36 |
+| 5–14 | 52 |
+| 15–29 | 80 |
+| 30–44 | 95 |
+| 45–59 | 85 |
+| 60–69 | 62 |
+| 70–79 | 54 |
+
+The **30–44 age group** has the highest patient count in the displayed report.
+
+### 8. Department Referral Analysis
+
+The dashboard shows the number of patients by department referral.
+
+| Department Referral | Patients |
+|---|---:|
+| None | 252 |
+| General Practice | 91 |
+| Orthopedics | 67 |
+| Physiotherapy | 19 |
+| Gastroenterology | 14 |
+| Cardiology | 13 |
+| Neurology | 6 |
+| Renal | 2 |
+
+The **None** category has the highest count, followed by **General Practice** and **Orthopedics**.
+
+---
+
+## 📅 Interactive Dashboard Filters
+
+The dashboard provides:
+
+- **Year Selection:** 2023 / 2024
+- **Month Selection:** January to December
+
+Users can select a year and month to dynamically review the corresponding emergency-room metrics.
+
+---
+
+## 💡 Key Insights
+
+Based on the dashboard view shown:
+
+- **464 patients** were recorded for the selected month.
+- Average waiting time was **35.19 minutes**.
+- Patient satisfaction score was **5.09**.
+- Admission status was approximately **50% admitted and 50% not admitted**.
+- **61%** of patients were marked as delayed, while **39%** were attended within time.
+- Male patients (**237**) were slightly higher than female patients (**227**).
+- The **30–44** age group had the highest patient count (**95**).
+- **None** was the largest department-referral category with **252 patients**.
+- General Practice and Orthopedics were the next major referral categories.
+
+> **Note:** These values correspond to the dashboard view shown in the project image. Selecting a different year or month can change the displayed values.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Excel**
+- Excel Dashboard
+- Pivot Tables
+- Pivot Charts
+- Interactive Filters
+- KPI Cards
+- Data Cleaning
+- Data Analysis
+- Data Visualization
+
+---
+
+## 📂 Project Structure
 
 ```text
 Hospital-Emergency-Room-Data-Analysis/
 │
 ├── README.md
 │
-├── Hospital Emergency Room Data.csv
+├── Hospital_Emergency_Room_Data.xlsx
 │
 └── images/
-    ├── 01-admission-status.png
-    ├── 02-department-referral.png
-    ├── 03-monthly-visits.png
-    └── 04-gender-distribution.png
+    ├── hospital-logo.png
+    └── hospital-emergency-room-dashboard.jpg
 ```
+
+> Replace `Hospital_Emergency_Room_Data.xlsx` with the actual name of your Excel workbook if it is different.
+
+---
 
 ## 🚀 How to Use
 
-1. Download the dataset from this repository.
-2. Open it in Microsoft Excel.
-3. Use Pivot Tables, charts, filters, and formulas to explore the data.
-4. Review the dashboard/visualizations and compare operational KPIs.
-5. Use the insights to understand ER workload and patient experience.
+1. Download or clone this repository.
+2. Open the Excel workbook in Microsoft Excel.
+3. Select the required **Year**.
+4. Select a **Month** from January to December.
+5. Review the KPI cards and charts.
+6. Analyze admission, waiting time, satisfaction, demographic, and department referral metrics.
+
+---
+
+## 📈 Business Value
+
+This dashboard can help hospital management:
+
+- Monitor emergency-room workload.
+- Identify waiting-time issues.
+- Understand patient demographics.
+- Track admission patterns.
+- Analyze department referrals.
+- Monitor patient satisfaction.
+- Compare monthly performance.
+- Support data-driven operational decisions.
+
+---
 
 ## 👨‍💻 Author
 
 **Avinash Gupta**
 
-B.Tech – Computer Science & Engineering  
-Skills: **Excel | Power BI | SQL | Python | Data Analytics**
+B.Tech – Computer Science & Engineering
+
+**Skills:** Excel | Power BI | SQL | Python | Data Analytics
 
 ---
 
-⭐ If you find this project useful, consider starring the repository.
+⭐ If you find this project useful, consider giving the repository a star.
