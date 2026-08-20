@@ -9,16 +9,11 @@ The dashboard provides a monthly reporting view with **Year** and **Month** sele
 ---
 
 ## 🖼️ Dashboard Preview
+## 📸 Dashboard Preview
 
-<p align="center">
-  <img src="images/hospital-logo.png" width="180" alt="Hospital Logo">
-</p>
+![Hospital Logo](./images/hospital-logo.png)
 
-<p align="center">
-  <img src="images/hospital-emergency-room-dashboard.jpg" width="100%" alt="Hospital Emergency Room Dashboard">
-</p>
-
----
+![Hospital Emergency Room Dashboard](./images/hospital-emergency-room-dashboard.jpg)
 
 ## 🎯 Project Objectives
 
