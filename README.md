@@ -11,7 +11,7 @@ The dashboard provides a monthly reporting view with **Year** and **Month** sele
 
 ![Hospital Logo](./images/Hospital_Logo.png)
 
-![Hospital Emergency Room Dashboard](./images/Hospital_Dashboard_Final. jpg)
+![Hospital Emergency Room Dashboard](images/hospital-emergency-room-dashboard.jpg)
 
 ## 🎯 Project Objectives
 
