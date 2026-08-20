@@ -7,11 +7,12 @@ An interactive **Hospital Emergency Room Data Analysis Dashboard** created in **
 The dashboard provides a monthly reporting view with **Year** and **Month** selection, helping users quickly understand emergency-room operations and identify areas that may require improvement.
 
 ---
-## 🖼️ Dashboard Preview
+
+## 📊 Dashboard Preview
 
 ![Hospital Logo](./images/Hospital_Logo.png)
 
-![Hospital Emergency Room Dashboard](./images/Hospital_Dashboard_Final.jpg)
+![Hospital Emergency Room Dashboard](./images/Hospital%20Dashboard%20Final.jpg)
 
 ## 🎯 Project Objectives
 
